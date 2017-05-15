@@ -23,7 +23,7 @@
       
    </head>
    
-   <body >
+   <body  data-spy="scroll" data-target="#nav" data-offset="50">
       <div class="container">
          <nav class="navbar navbar-default">
             <div class="container-fluid">
@@ -41,10 +41,10 @@
       </div>
 
       <div class="container">
-         <nav class="navbar-default" data-spy="affix" data-offset-top="70">
+         <nav id="nav" class="navbar-default" data-spy="affix" data-offset-top="70">
             <ul class="nav navbar-nav navbar-left"  >
-               <li><a href="#">Home</a></li>
-               <li><a href="#">Popular on medium</a></li>
+               <li><a href="#first">Home</a></li>
+               <li><a href="#Start">Popular on medium</a></li>
                <li><a href="#">Staff picks</a></li>
                <li><a href="#">World</a></li>
                <li><a href="#">Future</a></li>
@@ -73,7 +73,7 @@
               <li data-target="#myCarousel" data-slide-to="2"></li>
           </ol>    -->
           <!-- Wrapper for carousel items -->
-          <div class="carousel-inner" data-interval="20">
+          <div class="carousel-inner" data-interval="20" id="first">
               <div class="item active">
                   <img src="./img/coo.png" alt="First Slide">
               </div>
@@ -96,9 +96,9 @@
 
       <br/><br/>
 
-      <div class="container">
+      <div class="container" id="">
       <div class="row">
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-4" id="Start">
           <div class="thumbnail">
             <img src="./img/img2.jpg" alt="img-responsive">
             <div class="caption">
