@@ -9,3 +9,7 @@ $(document).ready(function() {
                $(this).replaceWith("<p><strong>Adelowokan Pelumi</strong></p>");
             });
          });
+
+             $("em").click(function(event){
+    event.preventDefault();
+});
