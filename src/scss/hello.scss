@@ -1,0 +1,37 @@
+$name: 23px;
+$colorgreen: #00C851;
+$font: tahoma;
+$border-radius: 6px;
+
+@import 'bootstrap';
+
+.filee{
+	padding-right: 15px;
+  padding-left: 15px;
+	border-radius:$border-radius;
+}
+
+.colorgreen{
+	color:$colorgreen;
+}
+
+.thumbnailcard {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 10px solid #ddd;
+  border-radius: 4px;
+  height: auto;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
+}
+
+.thumbnailcard > img,
+.thumbnailcard a > img {
+  margin-right: auto;
+  margin-left: auto;
+  height: 100% !important;
+}
