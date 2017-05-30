@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html>
+<!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+mixpanel.init("16bf91ebb9f111f8fc42ca7c8bdd55e6");</script><!-- end Mixpanel -->    
+   
+   <head  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+      <title>Medium_Bootstrap</title>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="CiBYeSUUmCYHeW0yCa7aF0YV5ckFzrKutS4Dryw3Vf0"/>
+        <link rel="stylesheet" type="text/css" href="/static/hijack/hijack-styles.css.pagespeed.ce.myjNt0da3I.css"/>
+
+    
+        <meta charset="utf-8"/><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"9431189497","agent":"","transactionName":"YFFUNUZUVkEHBxAPDlkbcBRaVkxbCQpLAxlDUUQPVVkWRA8BExVPWFhSF11QTwguCwkDN15RQU9TUEw=","applicationID":"8164701","errorBeacon":"bam.nr-data.net","applicationTime":782}</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="Tuteria helps you find, evaluate and book lessons with quality private tutors near you for whatever you wish to learn. From academic subjects to various exams and even skills like music, bead-making, photography, dance and more!"/>
+        <meta name="author" content="100s of Happy Clients"/>
+        <!-- for Google -->
+        <meta itemprop="name" content="Find the Perfect Tutor Near You | Welcome to Tuteria"/>
+        <meta itemprop="description" content="Tuteria helps you find, evaluate and book lessons with quality private tutors near you for whatever you wish to learn. From academic subjects to various exams and even skills like music, bead-making, photography, dance and more!"/>
+        <meta itemprop="image" content="https://tuteria.com/static/img/backgrounds/background1_pc.jpg"/>
+        <meta name="description" content="Tuteria helps you find, evaluate and book lessons with quality private tutors near you for whatever you wish to learn. From academic subjects to various exams and even skills like music, bead-making, photography, dance and more!"/>
+        <meta name="keywords" content=""/>
+        <meta name="copyright" content=""/>
+        <meta name="application-name" content=""/>
+        <!-- for Facebook -->
+        <meta property="fb:app_id" content="781136408623359"/>
+        <meta property="og:site_name" content="Tuteria"/>
+        <meta property="og:title" content="Find the Perfect Tutor Near You | Welcome to Tuteria"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:image" content="https://tuteria.com/static/img/backgrounds/background2_pc.jpg"/>
+        <meta property="og:url" content="https://www.tuteria.com"/>
+        <meta property="og:description" content="Tuteria helps you find, evaluate and book lessons with quality private tutors near you for whatever you wish to learn. From academic subjects to various exams and even skills like music, bead-making, photography, dance and more!"/>
+        <!-- for Twitter -->
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:site" content="@tuteriacorp"/>
+        <meta name="twitter:title" content="Find the Perfect Tutor Near You | Welcome to Tuteria"/>
+        <meta name="twitter:description" content="Tuteria helps you find, evaluate and book lessons with quality private tutors near you for whatever you wish to learn. From academic subjects to various exams and even skills like music, bead-making, photography, dance and more!"/>
+        <meta name="twitter:image" content="https://tuteria.com/static/img/backgrounds/background5_pc.jpg"/>
+<meta name="twitter:creator" content="@tuteriacorp">
+    
+    <title>Find Expert Private Tutors Near You | Tuteria Nigeria</title>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    
+    
+        
+        
+
+<link href='//fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+        
+
+    
+    
+    <link href="/static/css/external.css+home.css+carousel-css.css.pagespeed.cc.9Mt2kEpCZc.css" rel="stylesheet">
+      
+      <!-- Bootstrap -->
+      <link href = "dist/css/bootstrap.css" rel = "stylesheet">
+      <link rel="stylesheet" href="src/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      
+      <!--[if lt IE 9]>
+      <script src = "https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src = "https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+      <script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+         <link href="/static/css/external.css+home.css+carousel-css.css.pagespeed.cc.9Mt2kEpCZc.css" rel="stylesheet">
+
+    
+    
+    
+    <style>
+        .well.around {
+            border: 2px solid #d9edf7;
+        }
+
+        .well.styling {
+            background-color: rgba(250, 217, 32, 0.31);
+            border: none;
+        }
+
+        .pac-container {
+            background-color: #FFF;
+            z-index: 10000000;
+            position: fixed;
+            display: inline-block;
+            float: left;
+        }
+
+        
+        
+        
+        
+        
+        
+        
+
+        @media (max-width: 768px) {
+            .well.styling {
+                text-align: center;
+            }
+
+            .input-addon {
+                display: table;
+                width: 100%;
+            }
+
+            .fake-search-field {
+                background-color: #fff;
+            }
+
+            .input-large {
+                font-size: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+            .input-stem {
+                display: table-cell;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+
+            .btn.fa.icon-full {
+                font-size: 19px;
+            }
+
+            .input-suffix.btn {
+                padding-top: 11px;
+                padding-bottom: 11px;
+                margin-left: -44px;
+            }
+
+            .pac-container {
+                background-color: #FFF;
+             position: fixed;
+                display: inline-block;
+                float: left;
+            }
+
+            .modal {
+                z-index: 20;
+            }
+
+            .modal-backdrop {
+                z-index: 10;
+            }
+
+            ​
+        }
+
+.fancy-dates-message-container {
+  background: #FFFF99;
+  min-height: 84px;
+}
+
+.space-top-3 {
+  margin-top: 6.75px;
+}
+
+.large-padding {
+    padding: 80px 60px !important;
+}
+@media(max-width: 768px){
+    .large-padding {
+        padding: 50px 30px !important;
+    }
+}
+
+section.value-proposition {
+    font-size: 16px;
+    max-width: 1920px;
+    margin: 0 auto;
+    color: #fff;
+}
+@media (min-width: 768px) {
+    section.value-proposition.rtl-col .col {
+        float: right;
+    }
+}
+section.value-proposition .col {
+    padding: 0;
+    height: 600px;
+}
+section.value-proposition .col.col-higher {
+    height: 660px
+}
+section.value-proposition .col-text .area {
+    background-color: #393c3d;
+    height: 100%
+}
+section.value-proposition .col-image .area {
+    height: 100%;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover
+}
+
+section.value-proposition .section-header>.heading {
+    margin-bottom: 28px
+}
+section.value-proposition .section-header::after {
+    content: "";
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    width: 50px;
+    border-bottom: solid #c3c4c5 4px
+}
+section.value-proposition .h4 {
+    margin: 45px 0 14px
+}
+section.value-proposition p {
+    color: #c3c4c5
+}
+@media screen and (min-width: 768px) {
+            .carousel-caption {
+                left: 7% !important;
+                right: 0%;
+                padding-bottom: 30px;
+            }
+        }
+
+        @media (max-width: 1290px) and (min-width: 1280px) {
+            .carousel-caption {
+                left: 4% !important;
+                right: 0%;
+                padding-bottom: 30px;
+            }
+        }
+
+        @media (max-width: 1460px) and (min-width: 1420px) {
+            .carousel-caption {
+                left: 9% !important;
+                right: 0%;
+                padding-bottom: 30px;
+            }
+        }
+
+        @media (max-width: 1036px) and (min-width: 1016px) {
+            .carousel-caption {
+                left: 3% !important;
+                right: 0%;
+                padding-bottom: 30px;
+            }
+        }
+
+        @media (max-width: 1000px) and (min-width: 940px) {
+            .carousel-caption {
+                left: 10% !important;
+                right: 0%;
+                padding-bottom: 30px;
+            }
+        }
+
+        .caption-text {
+            border: rgba(0, 0, 0, 0.2);
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            font-size: 15px;
+            padding: 10px;
+            padding-left: 25px !important;
+            padding-right: 25px !important;
+        }
+        .relative-pos{
+            position: relative !important;
+        }
+        .black-text{
+            color:black;
+        }
+        .font-text{
+            color:#5e5e5e;
+        }
+        .deep-blue-bg{
+            background-color: #007a87;
+            color: #fff;
+        }
+
+        .panel-body-your-trips {
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+    </style>    
+
+    <style>
+
+        .no-padding-left {
+            padding-left: 0;
+        }
+    </style>
+    <style type="text/css">
+        .no-js {
+            display: none;
+        }
+
+        .collapsing {
+            -webkit-transition: none;
+            transition: none;
+        }
+
+    </style>
+
+    
+    
+    
+    
+
+    <script type="text/javascript">
+        document.documentElement.className =
+                document.documentElement.className.replace(/\bno-js\b/, 'js');
+
+        // add to document ready: $('.no-fouc').removeClass('no-fouc');
+    </script>
+
+    <!-- Modernizr -->
+    
+
+      
+   </head>
+   
+   <body>
+
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJQC9N" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJQC9N');</script>
+<!-- End Google Tag Manager -->
+    
+
+
+
+    
+    <div class="container">
+        <!-- Modal -->
+        <div class="modal fade" id="authModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            
+            <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" aria-label="Close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <div id="signup_header_text">
+            <h2 class="modal-title text-center" id="myModalLabel">Log in to Tuteria</h2>
+
+            <p class="modal-subheader text-center" style="font-size: 14px">Enter your email and password to access your account</p>    
+            </div>
+            <div id="maillist_header_text">
+            <h2 class="text-center" style="color: #337ab7">Coming Soon</h2>
+            <span style="font-size: 14px">Be the first to know when Tuteria gets to your country</span>
+            </div>
+            
+        </div>
+        <div class="modal-body">
+            
+                <section id="login_modal" class="">
+                    
+
+
+
+
+
+<form accept-charset="UTF-8" action="/accounts/login/" class="new_user" id="login_form" method="post" data-parsley-validate="">
+    <input type='hidden' name='csrfmiddlewaretoken' value='VaUkSBSbtVeKWHAzRaBIUYaNAJ7hciSO'/>
+        
+    <div class="form-group">
+        <input autofocus="autofocus" class="form-control" id="id_login" name="login" placeholder="Email" required="true" type="email"/>
+    </div>
+    <div class="form-group padding-top-10">
+        <input class="form-control" id="id_password" name="password" placeholder="Password" required="true" type="password"/>
+    </div>
+    
+
+    <div class="invalid-form-error-message"></div>
+
+    <div class="row padding-top-10">
+        <div class="form-group col-xs-12">
+            <button id="loginSubmitButton" class="btn btn-primary btn-block btn-lg big-btn" data-loading-text="Signing In..." type="submit">Log in</button>
+        </div>
+        <div class="col-xs-12">
+        <span class="pull-left">
+             
+
+            
+            <label class="">
+                <input id="id_remember" name="remember" type="checkbox"/> Remember me
+            </label>
+            
+        </span>
+        <span class="pull-right">     
+                <a class="password_link" href="/accounts/password/reset/">Forgot password?</a>
+        </span>
+            
+        </div>
+    </div>
+</form>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+                </section>
+                <section id="signup_modal" class="hidden">
+
+                    
+
+
+
+<div id="errorMessage" class="signupErrorMessage"></div>
+<form accept-charset="UTF-8" id="signup_form" action="/accounts/signup/" class="new_user " method="post" data-parsley-validate="">
+    <input type='hidden' name='csrfmiddlewaretoken' value='VaUkSBSbtVeKWHAzRaBIUYaNAJ7hciSO'/>
+    
+        
+        
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    
+                    <input class="form-control" data-parsley-error-message="Please input your first name" id="id_first_name" maxlength="30" name="first_name" placeholder="First name" required="true" type="text"/>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <input class="form-control" data-parsley-error-message="Please input your last name" id="id_last_name" maxlength="30" name="last_name" placeholder="Surname" required="true" type="text"/>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <input class="form-control" data-parsley-remote="" data-parsley-remote-message="This email already exists" data-parsley-remote-validator="validate_email" data-parsley-required-message="Your email is required" data-parsley-trigger="keyup" id="id_email" name="email" placeholder="Email Address" required="true" type="email"/>
+        </div>
+        
+            <div class="form-group">
+                
+                    <input class="form-control" data-parsley-equalto="#id_email" data-parsley-required-message="This field is required" id="id_confirm_email" name="confirm_email" placeholder="Confirm Email Address" required="true" type="text"/>
+                
+
+            </div>
+        
+        
+            <div class="row">
+                <div class="col-sm-6 col-xs-12">
+                    <div class="form-group">
+                        <select class="form-control" id="id_country" name="country" required="true">
+<option value="AD">Andorra</option>
+<option value="AE">United Arab Emirates</option>
+<option value="AF">Afghanistan</option>
+<option value="AG">Antigua and Barbuda</option>
+<option value="AI">Anguilla</option>
+<option value="AL">Albania</option>
+<option value="AM">Armenia</option>
+<option value="AO">Angola</option>
+<option value="AQ">Antarctica</option>
+<option value="AR">Argentina</option>
+<option value="AS">American Samoa</option>
+<option value="AT">Austria</option>
+<option value="AU">Australia</option>
+<option value="AW">Aruba</option>
+<option value="AX">Åland Islands</option>
+<option value="AZ">Azerbaijan</option>
+<option value="BA">Bosnia and Herzegovina</option>
+<option value="BB">Barbados</option>
+<option value="BD">Bangladesh</option>
+<option value="BE">Belgium</option>
+<option value="BF">Burkina Faso</option>
+<option value="BG">Bulgaria</option>
+<option value="BH">Bahrain</option>
+<option value="BI">Burundi</option>
+<option value="BJ">Benin</option>
+<option value="BL">Saint Barthélemy</option>
+<option value="BM">Bermuda</option>
+<option value="BN">Brunei Darussalam</option>
+<option value="BO">Bolivia (Plurinational State of)</option>
+<option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+<option value="BR">Brazil</option>
+<option value="BS">Bahamas</option>
+<option value="BT">Bhutan</option>
+<option value="BV">Bouvet Island</option>
+<option value="BW">Botswana</option>
+<option value="BY">Belarus</option>
+<option value="BZ">Belize</option>
+<option value="CA">Canada</option>
+<option value="CC">Cocos (Keeling) Islands</option>
+<option value="CD">Congo (the Democratic Republic of the)</option>
+<option value="CF">Central African Republic</option>
+<option value="CG">Congo</option>
+<option value="CH">Switzerland</option>
+<option value="CI">Côte d&#39;Ivoire</option>
+<option value="CK">Cook Islands</option>
+<option value="CL">Chile</option>
+<option value="CM">Cameroon</option>
+<option value="CN">China</option>
+<option value="CO">Colombia</option>
+<option value="CR">Costa Rica</option>
+<option value="CU">Cuba</option>
+<option value="CV">Cabo Verde</option>
+<option value="CW">Curaçao</option>
+<option value="CX">Christmas Island</option>
+<option value="CY">Cyprus</option>
+<option value="CZ">Czech Republic</option>
+<option value="DE">Germany</option>
+<option value="DJ">Djibouti</option>
+<option value="DK">Denmark</option>
+<option value="DM">Dominica</option>
+<option value="DO">Dominican Republic</option>
+<option value="DZ">Algeria</option>
+<option value="EC">Ecuador</option>
+<option value="EE">Estonia</option>
+<option value="EG">Egypt</option>
+<option value="EH">Western Sahara</option>
+<option value="ER">Eritrea</option>
+<option value="ES">Spain</option>
+<option value="ET">Ethiopia</option>
+<option value="FI">Finland</option>
+<option value="FJ">Fiji</option>
+<option value="FK">Falkland Islands  [Malvinas]</option>
+<option value="FM">Micronesia (Federated States of)</option>
+<option value="FO">Faroe Islands</option>
+<option value="FR">France</option>
+<option value="GA">Gabon</option>
+<option value="GB">United Kingdom of Great Britain and Northern Ireland</option>
+<option value="GD">Grenada</option>
+<option value="GE">Georgia</option>
+<option value="GF">French Guiana</option>
+<option value="GG">Guernsey</option>
+<option value="GH">Ghana</option>
+<option value="GI">Gibraltar</option>
+<option value="GL">Greenland</option>
+<option value="GM">Gambia</option>
+<option value="GN">Guinea</option>
+<option value="GP">Guadeloupe</option>
+<option value="GQ">Equatorial Guinea</option>
+<option value="GR">Greece</option>
+<option value="GS">South Georgia and the South Sandwich Islands</option>
+<option value="GT">Guatemala</option>
+<option value="GU">Guam</option>
+<option value="GW">Guinea-Bissau</option>
+<option value="GY">Guyana</option>
+<option value="HK">Hong Kong</option>
+<option value="HM">Heard Island and McDonald Islands</option>
+<option value="HN">Honduras</option>
+<option value="HR">Croatia</option>
+<option value="HT">Haiti</option>
+<option value="HU">Hungary</option>
+<option value="ID">Indonesia</option>
+<option value="IE">Ireland</option>
+<option value="IL">Israel</option>
+<option value="IM">Isle of Man</option>
+<option value="IN">India</option>
+<option value="IO">British Indian Ocean Territory</option>
+<option value="IQ">Iraq</option>
+<option value="IR">Iran (Islamic Republic of)</option>
+<option value="IS">Iceland</option>
+<option value="IT">Italy</option>
+<option value="JE">Jersey</option>
+<option value="JM">Jamaica</option>
+<option value="JO">Jordan</option>
+<option value="JP">Japan</option>
+<option value="KE">Kenya</option>
+<option value="KG">Kyrgyzstan</option>
+<option value="KH">Cambodia</option>
+<option value="KI">Kiribati</option>
+<option value="KM">Comoros</option>
+<option value="KN">Saint Kitts and Nevis</option>
+<option value="KP">Korea (the Democratic People&#39;s Republic of)</option>
+<option value="KR">Korea (the Republic of)</option>
+<option value="KW">Kuwait</option>
+<option value="KY">Cayman Islands</option>
+<option value="KZ">Kazakhstan</option>
+<option value="LA">Lao People&#39;s Democratic Republic</option>
+<option value="LB">Lebanon</option>
+<option value="LC">Saint Lucia</option>
+<option value="LI">Liechtenstein</option>
+<option value="LK">Sri Lanka</option>
+<option value="LR">Liberia</option>
+<option value="LS">Lesotho</option>
+<option value="LT">Lithuania</option>
+<option value="LU">Luxembourg</option>
+<option value="LV">Latvia</option>
+<option value="LY">Libya</option>
+<option value="MA">Morocco</option>
+<option value="MC">Monaco</option>
+<option value="MD">Moldova (the Republic of)</option>
+<option value="ME">Montenegro</option>
+<option value="MF">Saint Martin (French part)</option>
+<option value="MG">Madagascar</option>
+<option value="MH">Marshall Islands</option>
+<option value="MK">Macedonia (the former Yugoslav Republic of)</option>
+<option value="ML">Mali</option>
+<option value="MM">Myanmar</option>
+<option value="MN">Mongolia</option>
+<option value="MO">Macao</option>
+<option value="MP">Northern Mariana Islands</option>
+<option value="MQ">Martinique</option>
+<option value="MR">Mauritania</option>
+<option value="MS">Montserrat</option>
+<option value="MT">Malta</option>
+<option value="MU">Mauritius</option>
+<option value="MV">Maldives</option>
+<option value="MW">Malawi</option>
+<option value="MX">Mexico</option>
+<option value="MY">Malaysia</option>
+<option value="MZ">Mozambique</option>
+<option value="NA">Namibia</option>
+<option value="NC">New Caledonia</option>
+<option value="NE">Niger</option>
+<option value="NF">Norfolk Island</option>
+<option value="NG" selected="selected">Nigeria</option>
+<option value="NI">Nicaragua</option>
+<option value="NL">Netherlands</option>
+<option value="NO">Norway</option>
+<option value="NP">Nepal</option>
+<option value="NR">Nauru</option>
+<option value="NU">Niue</option>
+<option value="NZ">New Zealand</option>
+<option value="OM">Oman</option>
+<option value="PA">Panama</option>
+<option value="PE">Peru</option>
+<option value="PF">French Polynesia</option>
+<option value="PG">Papua New Guinea</option>
+<option value="PH">Philippines</option>
+<option value="PK">Pakistan</option>
+<option value="PL">Poland</option>
+<option value="PM">Saint Pierre and Miquelon</option>
+<option value="PN">Pitcairn</option>
+<option value="PR">Puerto Rico</option>
+<option value="PS">Palestine, State of</option>
+<option value="PT">Portugal</option>
+<option value="PW">Palau</option>
+<option value="PY">Paraguay</option>
+<option value="QA">Qatar</option>
+<option value="RE">Réunion</option>
+<option value="RO">Romania</option>
+<option value="RS">Serbia</option>
+<option value="RU">Russian Federation</option>
+<option value="RW">Rwanda</option>
+<option value="SA">Saudi Arabia</option>
+<option value="SB">Solomon Islands</option>
+<option value="SC">Seychelles</option>
+<option value="SD">Sudan</option>
+<option value="SE">Sweden</option>
+<option value="SG">Singapore</option>
+<option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+<option value="SI">Slovenia</option>
+<option value="SJ">Svalbard and Jan Mayen</option>
+<option value="SK">Slovakia</option>
+<option value="SL">Sierra Leone</option>
+<option value="SM">San Marino</option>
+<option value="SN">Senegal</option>
+<option value="SO">Somalia</option>
+<option value="SR">Suriname</option>
+<option value="SS">South Sudan</option>
+<option value="ST">Sao Tome and Principe</option>
+<option value="SV">El Salvador</option>
+<option value="SX">Sint Maarten (Dutch part)</option>
+<option value="SY">Syrian Arab Republic</option>
+<option value="SZ">Swaziland</option>
+<option value="TC">Turks and Caicos Islands</option>
+<option value="TD">Chad</option>
+<option value="TF">French Southern Territories</option>
+<option value="TG">Togo</option>
+<option value="TH">Thailand</option>
+<option value="TJ">Tajikistan</option>
+<option value="TK">Tokelau</option>
+<option value="TL">Timor-Leste</option>
+<option value="TM">Turkmenistan</option>
+<option value="TN">Tunisia</option>
+<option value="TO">Tonga</option>
+<option value="TR">Turkey</option>
+<option value="TT">Trinidad and Tobago</option>
+<option value="TV">Tuvalu</option>
+<option value="TW">Taiwan (Province of China)</option>
+<option value="TZ">Tanzania, United Republic of</option>
+<option value="UA">Ukraine</option>
+<option value="UG">Uganda</option>
+<option value="UM">United States Minor Outlying Islands</option>
+<option value="US">United States of America</option>
+<option value="UY">Uruguay</option>
+<option value="UZ">Uzbekistan</option>
+<option value="VA">Holy See</option>
+<option value="VC">Saint Vincent and the Grenadines</option>
+<option value="VE">Venezuela (Bolivarian Republic of)</option>
+<option value="VG">Virgin Islands (British)</option>
+<option value="VI">Virgin Islands (U.S.)</option>
+<option value="VN">Viet Nam</option>
+<option value="VU">Vanuatu</option>
+<option value="WF">Wallis and Futuna</option>
+<option value="WS">Samoa</option>
+<option value="YE">Yemen</option>
+<option value="YT">Mayotte</option>
+<option value="ZA">South Africa</option>
+<option value="ZM">Zambia</option>
+<option value="ZW">Zimbabwe</option>
+</select>
+                    </div>
+                </div>
+                
+                    <div id="phone_container" class="col-sm-6 col-xs-12">
+                        <div id="phone_no" class="form-group">
+                            <input class="form-control" data-parsley-remote="" data-parsley-remote-message="This phone number already exist.!" data-parsley-remote-validator="validate_duplicate_number" data-parsley-required-message="Your phone-number is required" data-parsley-trigger="keyup" data-parsley-valid_phone="" id="id_phone_number" name="phone_number" placeholder="+2347035509923" required="true" type="text"/>
+                        </div>
+                    </div>
+                
+            </div>
+            
+        
+        
+            <div id="password_container" class="form-group">
+                <div id="pass_group">
+                    <input class="form-control" data-parsley-minlength="6" data-parsley-minlength-message="The password should be at least 6 characters" data-parsley-required-message="Please input a password" id="id_password1" name="password1" placeholder="Password" required="true" type="password"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <small>If you have a referral code, enter it here. If not, then leave it blank.</small>
+                <input class="form-control" id="id_referral_code" name="referral_code" placeholder="Referral code (Optional)" type="text"/>
+            </div>
+        
+    
+    
+
+    
+    <div class="row">
+        <div class="form-group col-xs-12">
+            <button id="submit_btn" class="btn btn-primary btn-block btn-lg big-btn" data-loading-text="Registering..." name="commit" type="submit">Join in
+            </button>
+        </div>
+    </div>
+    <div class="last form-group agree-to">
+        <div class="form-group-meta">
+            <p class="small">
+                By registering you are agreeing to our <a href="/terms/" target="_blank">Terms</a> and <a href="/policies/" target="_blank">Policies</a>.
+            </p>
+        </div>
+    </div>
+</form>
+                </section>
+                <section id="reset_modal" class="hidden">
+                    
+
+
+<form accept-charset="UTF-8" action="/accounts/password/reset/" class="new_user" id="reset_password_form" method="post" novalidate="novalidate">
+    <input type='hidden' name='csrfmiddlewaretoken' value='VaUkSBSbtVeKWHAzRaBIUYaNAJ7hciSO'/>
+    <div class="form-group">
+        <label class="control-label sr-only">E-mail</label>
+        <input class="form-control" id="id_email" name="email" placeholder="What&#39;s your Tuteria email?" required="true" size="30" type="email"/>
+
+    </div>
+
+    
+
+    <div class="invalid-form-error-message"></div>
+
+    <div class="row">
+        <div class="form-group col-sm-12">
+            <button id="resetButton" data-loading-text="Sending..." class="btn btn-primary btn-block btn-lg big-btn" type="submit">Reset</button>
+        </div>
+    </div>
+</form>
+                </section>
+            
+        </div>
+        <div class="modal-footer">
+            <div class="text-center">
+                <span class="login_footer ">
+                    <span class="pull-left">New member? <a href="#">Sign up!</a></span>
+                    <span class="pull-right"><a target="_blank" href="/help/topic/102/">Need help?</a></span>
+                </span>
+                <span class="signup_footer hidden">
+                    <span class="pull-left">Returning user? <a href="#">Log in</a></span>
+                    <span class="pull-right"><a target="_blank" href="/help/topic/102/">Need help?</a></span>
+                </span>
+                <span class="reset_footer hidden">
+                    <a href="#">Back to Login</a>
+                </span>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+            
+        </div>
+
+    
+    
+        <div class="outer transparent-nav">
+
+            
+
+            
+
+            
+
+            
+                
+
+                    
+                        <div class=" na hidden-xs ">
+                            
+    
+<div class="header-2 hidden-xs">
+    <!-- Container -->
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-default padding-side-15" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="logo" href="/">
+                        <span class="nav-logo"></span>
+                        
+                        
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    
+                        
+                            
+                        
+
+                        
+                            <style>
+                            #hiring {
+                                    position: relative;
+                                    top: 49px;
+                                    padding: 7px 10px;
+                                    display: inline;
+                                    top: 15px;
+                                    border: 2px solid red;
+                                    text-transform: uppercase;
+                                    letter-spacing: 1.3px;
+                                    text-decoration: none;
+                                    font-size: 13px;
+                                    -webkit-border-radius: 3px;
+                                    -moz-border-radius: 3px;
+                                    -ms-border-radius: 3px;
+                                    -o-border-radius: 3px;
+                                    border-radius: 3px;
+                                    margin-top: 21px;
+                                    -webkit-transition: all 0.2s ease-in-out;
+                                    -moz-transition: all 0.2s ease-in-out;
+                                    -ms-transition: all 0.2s ease-in-out;
+                                    -o-transition: all 0.2s ease-in-out;
+                                    transition: all 0.2s ease-in-out;
+                                }
+
+                        </style>
+                        <!--<a id="hiring" class="blue-font hidden"  href="/invite/">invite & earn!</a>-->
+                        
+                            <!--<span class="font-head" style="margin-left: 15%">
+                                <i class="fa fa-phone"></i> &nbsp;  090 945 26878
+                            </span>-->
+                        
+                            
+                        
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <p class="navbar-text font-head">
+                                    <i class="glyphicon glyphicon-earphone"></i> &nbsp;  090 945 26878
+                                </p>
+                            
+
+
+                            
+                                
+                                <li><a id="login_nav" href="/accounts/login/" class="">Login</a></li>
+
+                                
+                            
+                            
+                       
+                            
+                                <!--<li class="dropdown navdropdown">
+                                    <a href="/help/" class="dropdown-toggle" data-toggle="dropdown">Help
+                                        <b
+                                                class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/help/" style="color: #337ab7; padding: 10px 20px">Visit
+                                            the Help Center &#10137;</a></li>
+                                        <li><a href="/help/topic/69/" style="padding: 10px 20px">How
+                                            do I hire tutors on Tuteria?</a></li>
+                                        <li><a href="/help/topic/21/" style="padding: 10px 20px">How
+                                            can I become a tutor on Tuteria?</a></li>
+                                        <li><a href="/help/topic/14/" style="padding: 10px 20px">What
+                                            is Verified ID?</a></li>
+                                        <li><a href="/help/topic/89/" style="padding: 10px 20px">How
+                                            does Tuteria payment system work?</a></li>
+                                        <li><a href="/help/topic/86/" style="padding: 10px 20px">How
+                                            much do I pay for lessons?</a></li>
+                                    </ul>
+                                </li>-->
+                            
+
+                            
+
+                                
+
+                                    <li><a href="/become-a-tutor/" class="btn btn-tutor">Become
+                                        a tutor</a></li>
+                                
+                            
+
+                        </ul>
+                    
+
+                </div>
+                <!-- /.navbar-collapse -->
+            </nav>
+        </div>
+    </div>
+</div>
+</div>
+
+       <!-- end header -->
+       <br/>
+
+    
+      <div class="container">
+        <div class="row">
+          <div class= "main col-xs-9">
+               <div class="container">
+                 <h1><strong>Tuteria reviews by student</strong></h1>
+                 <h3>Reviews of Tuteria by students and parents in your community</h3>
+               </div>   
+               <div class="container">
+                 <button class="btn btn-primary btn-lg">WRITE A REVIEW</button>
+               </div>
+               <br/>
+
+               <!-- panel -->
+              <div class="container col-xs-12">
+              <div class="panel panel-default">
+                <blockquote class="blockquote">
+                  <h5 class="mb-0"><i class="fa fa-quote-left" style="color: green" aria-hidden="true"></i>
+                  <strong>Happy to have found you</strong></h5>
+                  <h5 class="mb 0">I am based in the UK. Very happy to have found your website and used your service. I will tell my friends about your system. It is great you offer payments via PayPal as this makes it easier to pay in other currencies.</h5>
+                  <footer class="blockquote-reverse ">Gafar from <cite title="Source Title">Lagos Ng.</cite></footer>
+                </blockquote>
+              </div>
+              </div>
+
+              <div class="Container">
+           <ul class="pagination  pull-right">
+                <li><a href="#">«</a></li>
+                <li><a href="#">&lt;</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&gt;</a></li>
+                <li><a href="#">»</a></li>
+            </ul>
+         </div>
+
+
+          </div> 
+
+          <!-- right side bar -->
+          <div class="sidebar col-xs-3">
+               <div class="list-group">
+                <a href="#" class="list-group-item active disable">Review</a>
+                <a href="#" class="list-group-item">Student reviews of Tuteria</a>
+                <a href="#" class="list-group-item">Student reviews of tutors</a>
+                <a href="#" class="list-group-item">Tutor reviews of Tuteria </a>
+              </div>
+               <div class="well">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Subject</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1">
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-6">
+                      <label for="exampleInputEmail1">Zip Code</label>
+                      <input type="text" class="form-control" placeholder="100211">
+                    </div>
+                    <div class="col-xs-6">
+                      <label for="exampleInputEmail1">Distance</label>
+                      <select class="form-control col-xs-6">
+                      <option>1 mile</option>
+                      <option>2 miles</option>
+                      <option>10 miles</option>
+                      <option>15 miles</option>
+                      <option>20 miles</option>
+                      <option>25 miles</option>
+                      <option>30 miles</option>
+                      <option>35 miles</option>
+                      <option>40 miles</option>
+                    </select>
+                    </div>
+                    </div>
+                </form>
+                <br/>
+                    <div class="form-group">
+                      <button type="button" class="btn btn-primary btn-lg btn-block">Search</button>
+                    </div>
+               </div>
+                        </div>
+         
+
+         <!-- end Right Sidebar -->
+        
+     <div class="container"> 
+<div class="clearfix2">
+    <div class="col-sm-6 col-xs-12">
+        <div class="row">
+            <div class="col-sm-6 col-xs-6">
+                <div class="foot-item-content">
+                    <h5 class="font-head">Get to know us</h5>
+                    <hr style="margin-top:10px; margin-bottom: 10px">
+                    <ul class="list-unstyled ">
+                        <!-- Link -->
+                        <li><a href="/why-use-tuteria/" class="white hover-underline">About Tuteria</a></li>                
+                        <li><a href="/trust/" class="white hover-underline">Trust & Safety</a></li>
+                        <!--<li><a href="/help/" class="white hover-underline">Help Center</a></li>-->
+                        <!--<li><a href="/invite" class="white hover-underline">Invite Friends</a></li>-->
+                        <li><a href="/press" class="white hover-underline">Press</a></li>                
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xs-6">
+                <div class="foot-item-content">
+                    <h5 class="font-head">Learn with us</h5>
+                    <hr style="margin-top:10px; margin-bottom: 10px">
+                    <ul class="list-unstyled ">
+                        <!-- Link -->
+
+                        
+                        <!--<li><a href="/categories/mathematics/general-mathematics/" class="white hover-underline">Find a Tutor</a></li>-->
+                        <!--<li><a href="/request/" class="white hover-underline">Request a Tutor</a></li>-->
+                        <li><a href="/home-tutors-in-nigeria/" class="white hover-underline">Home Tutoring</a></li>
+                        <li><a href="/explore/" class="white hover-underline">Find Subjects</a></li>                
+                         
+                        <!--<li><a href="/ebook_giveaway/" class="white hover-underline">Tuteria Resources</a></li>-->
+                    </ul>
+                </div>
+            </div>                
+        </div>            
+    </div>        
+
+    <div class="col-sm-6 col-xs-12">
+        <div class="row">
+
+            <div class="col-sm-6 col-xs-6 space-for-mobile">
+                <div class="foot-item-content">
+                    <h5 class="font-head">Work with us</h5>
+                    <hr style="margin-top:10px; margin-bottom: 10px">
+                    <ul class="list-unstyled ">
+                        <!-- Link -->
+                        <li><a href="/become-a-tutor/" class="white hover-underline">Become a Tutor </a></li>
+                        <!--<li><a href="/help/how_to_tutor/" class="white hover-underline">How to Tutor</a></li>-->
+                                                    
+                        <!--<li><a href="/partnerships/" class="white hover-underline">Partnerships</a></li>-->
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xs-6 space-for-mobile">
+                <div class="foot-item-content">
+                    <h5 class="font-head">Connect with us</h5>
+                    <hr style="margin-top:10px; margin-bottom: 10px">
+                    <ul class="list-unstyled ">
+                        <!-- Link -->
+                        <!--<li class="font-head white hover-underline"> 090 945 26878</li>-->
+                        <!--<li class="white hover-underline">Head Office: 108 Herbert Macaulay Way, Ebute Metta, Yaba, Lagos</li>-->
+                        <!--<li class="white hover-underline"> info@tuteria.com</li>-->
+                        <li><a href="//facebook.com/tuteriacorp" target="_blank" class="white hover-underline"><i class="fa fa-facebook circle-2 br-white"></i>&nbsp;Facebook</a></li>
+                        <li><a href="//twitter.com/tuteriacorp" target="_blank" class="white hover-underline"><i class="fa fa-twitter circle-2 br-white"></i>&nbsp;Twitter</a></li>
+                        <!--<li><a href="//plus.google.com/114015908906926908587/" target="_blank" class="white hover-underline"><i
+                                class="fa fa-google-plus circle-2 br-white"></i>&nbsp;Google + </a></li>-->
+                        <!--<li><a href="#" class="white hover-underline" target="_blank"> <i class="fa fa-linkedin circle-2 br-white"></i> #}
+                            {# Linkedin</a></li>-->
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                                
+                            
+                            
+
+                        </div>
+                    </div>
+                </div>
+                </div>
+            
+            <!-- Footer Starts -->
+            
+                
+                <footer class="footer-general row xs-no-margin-left-right">
+    <!-- Container -->
+    <div class="container">
+    <hr>
+            <div class="col-sm-12" style="font-size:14px">
+                
+                <!-- Footer Content -->
+                <!-- Paragraph -->
+                <div class="no-padding-left">
+                    <p class="pull-left"><a href="/">&copy; Tuteria, Ltd.</a></p>
+                    
+                    <ul class="list-inline pull-right">
+                        <li><a class="hidden-xs" href="https://mixpanel.com/f/partner"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_light.png" alt="Mobile Analytics"/></a></li>
+                        <li><a href="/terms/">Terms of Use</a></li>
+
+                        <li><a href="/policies/">Policies</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+    </div>
+</footer>
+
+                
+            
+        </div>
+    </div>
+    
+    
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    
+    
+    
+        
+        
+<script src="/jsreverse/.pagespeed.ce._-Cs3NjfnP.js" type="text/javascript"></script>
+
+<!-- Latest JQuery -->
+ 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+ 
+<script src=""></script>
+<!-- Latest compiled and minified JavaScript -->
+
+
+<script src="/static/js/typeahead.bundle.min.js.pagespeed.ce.R0sr4RfQkd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.0.1/spin.min.js"></script>
+<!--Start of Tawk.to Script-->
+<!--End of Tawk.to Script-->
+
+
+
+
+        
+        <script>
+        </script>
+
+        
+        
+        
+        
+    
+
+
+ <script src="/static/js/home.bundle.js.pagespeed.ce.OuJsJeiT_d.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places&region=NG&key=AIzaSyAkEDJcOnQRw9sDDENqa4zeAvLMmD35_fk&callback=initializeCallback"></script>
+
+    
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src = "https://code.jquery.com/jquery.js"></script>
+
+      
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src = "src/js/bootstrap.min.js"></script>
+      <script src = "src/js/patch.js"></script>
+      
+   </body>
+</html>

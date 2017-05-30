@@ -12,4 +12,7 @@ $(document).ready(function() {
             });
          });
 
-          
+$('[data-spy="affix"]').each(function () {
+  var $spy = $(this).scrollspy('refresh')
+})
+            
